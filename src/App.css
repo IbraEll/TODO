@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(241, 240, 234);
+  min-height: 100vh;
+}
+
+.content {
+  padding-bottom: 50px;
+}
+
+.header {
+  padding-top: 10%;
+}
+
+.header__title {
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+@media(max-width: 640px) {
+  .content {
+    padding-bottom: 30px;
+  }
+
+  .header {
+    padding-top: 20px;
+  }
+
+  .header__title {
+    font-size: 1.7rem;
+  }
+
+}

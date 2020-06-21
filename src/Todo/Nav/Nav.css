@@ -1,0 +1,33 @@
+.todo__nav{
+    display: flex;
+    align-items: center;
+}
+
+.todo__nav button {
+    margin-left: 20px;
+}
+
+.todo__nav .active:focus,
+.todo__nav .active:hover {
+    text-decoration: none;
+    cursor: auto;
+}
+
+.todo__nav .active {
+    font-weight: bold;
+}
+
+
+@media(max-width: 640px){
+    .todo__nav button {
+        margin: 0;
+        width: 33%;
+    }
+    .todo__nav{
+        justify-content: space-around;
+        margin-bottom: 10px;
+    }
+    .todo__state{
+        text-align: center;
+    }
+}

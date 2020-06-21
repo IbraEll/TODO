@@ -1,0 +1,22 @@
+.todo{
+    box-shadow: 0 3px 3px rgb(187, 186, 186);
+    background-color: #fff;
+    width: 60%;
+    margin: auto;
+}
+
+.todo__bottom{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width: 640px){
+    .todo{
+        width: 90%;
+
+    }
+    .todo__bottom{
+        flex-direction: column-reverse;
+    }
+}
